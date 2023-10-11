@@ -1,0 +1,36 @@
+#editor {
+    float: left;
+    width: 40%;
+    padding: 20px;
+}
+
+#text-editor {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#image-upload {
+    margin-bottom: 10px;
+}
+
+#image-preview {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+}
+
+#blog {
+    float: right;
+    width: 60%;
+    padding: 20px;
+}
+
+#blog-content {
+    width: 100%;
+    height: auto;
+}
