@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="editor">
+        <h1>Blog Editor</h1>
+        <textarea id="text-editor" placeholder="Enter your text here"></textarea>
+        <input type="file" id="image-upload" accept="image/*">
+        <div id="image-preview"></div>
+        <button onclick="addText()">Add Text</button>
+        <button onclick="addImage()">Add Image</button>
+    </div>
+    <div id="blog">
+        <h1>Your Blog</h1>
+        <div id="blog-content"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
